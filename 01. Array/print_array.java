@@ -4,5 +4,7 @@ public class print_array {
         System.out.println("helllo");
         System.out.println("helllo");
         System.out.println("helllo");
+        System.out.println("helllo");
+        System.out.println("helllo");
     }
 }
