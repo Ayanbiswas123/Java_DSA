@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Binary_Search {
+public class A1_binarySearch {
 
     static int binarySearch(int[] arr, int num){
 
@@ -9,7 +9,7 @@ public class Binary_Search {
         int mid = (r+l)/2;
         while(l <= r && arr[mid] != num){
 
-            if(num < mid){
+            if(num < arr[mid]){
                 r = mid-1;
             }else{
 
@@ -17,7 +17,8 @@ public class Binary_Search {
             }
             mid = (r+l)/2;
         }
-        if(num == mid){
+        
+        if(num == arr[mid]){
             return 1;
         }else{
             return 0;
