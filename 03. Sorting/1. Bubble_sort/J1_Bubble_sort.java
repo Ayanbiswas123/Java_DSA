@@ -36,5 +36,8 @@ public class J1_Bubble_sort {
         bubbleSort(arr, n);
 
         display(arr);
+
+        sc.close();
     }
+    
 }

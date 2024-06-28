@@ -22,6 +22,7 @@ public class A1_findElementUsingLinearSearch {
                 break;
             }
         }
+        sc.close();
 
     }
 }
