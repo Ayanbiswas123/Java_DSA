@@ -25,7 +25,7 @@ public class J1_Bubble_sort {
     }
     public static void main(String[] args) {
         System.out.println("Bubble sort");
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); 
         System.out.println("Enter the Range of Array = ");
         int n = sc.nextInt();
         System.out.println("Enter Array Element = ");
