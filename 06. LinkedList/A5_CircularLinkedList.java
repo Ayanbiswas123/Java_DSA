@@ -14,7 +14,7 @@ public class A5_CircularLinkedList {
         }
     }
 
-    public static class DoubleLinkedList {
+    public static class CircularLinkedList {
         Node head = null;
         Node tail = null;
 
@@ -123,7 +123,7 @@ public class A5_CircularLinkedList {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        DoubleLinkedList dll = new DoubleLinkedList();
+        CircularLinkedList dll = new CircularLinkedList();
 
         int choice = 0;
         while (choice != 5) {
